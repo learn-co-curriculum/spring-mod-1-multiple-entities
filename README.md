@@ -36,7 +36,7 @@ in Spring Boot. Consider the following ER diagram:
 ![football-ER-diagram](https://curriculum-content.s3.amazonaws.com/spring-mod-1/multiple-entities/football-team-and-football-player-schema.png)
 
 Let's modify our schema now in our sports database to add this new table and
-this many-to-many relationship:
+this one-to-many relationship:
 
 ```postgresql
 DROP TABLE IF EXISTS football_player;
